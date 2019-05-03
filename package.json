@@ -1,6 +1,6 @@
 {
   "name": "ava-env",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Test specific environment variables for ava",
   "main": "index.js",
   "repository": "https://github.com/ChocPanda/ava-env",

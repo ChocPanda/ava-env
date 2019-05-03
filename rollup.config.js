@@ -23,6 +23,7 @@ export default [
 			preferConst: true,
 			exports: 'default'
 		},
+		external: ['ava'],
 		plugins
 	}
 ];

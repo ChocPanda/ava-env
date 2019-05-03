@@ -1,7 +1,6 @@
-const test = require('ava');
 const deepClone = require('lodash.clonedeep');
 
-const env = test => {
+module.exports = test => {
 	const envCache = Symbol('envCache');
 
 	test.beforeEach(t => {
@@ -18,6 +17,6 @@ const env = test => {
 	test.afterEach(t => {
 		process.env = t.context[envCache];
 	});
-};
 
-module.exports = env;
+	return test;
+};

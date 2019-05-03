@@ -26,7 +26,8 @@
     "dist/**/*.d.ts"
   ],
   "dependencies": {
-    "ava": "^1.4.1"
+    "ava": "^1.4.1",
+    "lodash.clonedeep": "^4.5.0"
   },
   "devDependencies": {
     "@semantic-release/changelog": "^3.0.2",

@@ -23,7 +23,7 @@ export default [
 			preferConst: true,
 			exports: 'default'
 		},
-		external: ['ava'],
+		external: ['ava', 'lodash.clonedeep'],
 		plugins
 	}
 ];

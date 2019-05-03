@@ -1,6 +1,10 @@
 module.exports = {
-	'check-coverage': true,
+	'check-coverage': false,
 	'per-file': true,
+	lines: 75,
+	statements: 75,
+	functions: 75,
+	branches: 75,
 	watermarks: {
 		lines: [80, 95],
 		functions: [80, 95],

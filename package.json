@@ -7,6 +7,11 @@
   "author": "ChocPanda",
   "license": "MIT",
   "private": false,
+  "keywords": [
+    "ava",
+    "environment-variables",
+    "unit-testing"
+  ],
   "scripts": {
     "commit": "git-cz",
     "build": "rollup -c",

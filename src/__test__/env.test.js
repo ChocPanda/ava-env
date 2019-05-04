@@ -1,5 +1,5 @@
 const deepClone = require('lodash.clonedeep');
-const test = require('../env')(require('ava'));
+const test = require('../env')(require('ava')); // eslint-disable-line import/order
 
 const originalProcessEnv = deepClone(process.env);
 

@@ -1,3 +1,15 @@
+# [2.0.0](https://github.com/ChocPanda/ava-env/compare/v1.1.0...v2.0.0) (2019-05-04)
+
+
+### Build System
+
+* **env:** Restructure dependencies ([237a1f2](https://github.com/ChocPanda/ava-env/commit/237a1f2))
+
+
+### BREAKING CHANGES
+
+* **env:** Move ava to be a peer dependency
+
 # [1.1.0](https://github.com/ChocPanda/ava-env/compare/v1.0.0...v1.1.0) (2019-05-03)
 
 

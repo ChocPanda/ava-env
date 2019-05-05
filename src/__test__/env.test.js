@@ -3,7 +3,7 @@ const test = require('../env')(require('ava')); // eslint-disable-line import/or
 
 const originalProcessEnv = deepClone(process.env);
 
-test.serial('Ava-env - Should add variables to process.env', t => {
+test('Ava-env - Should add variables to process.env', t => {
 	t.context.env({ testEnvVar: 'testValue' });
 	t.is(process.env.testEnvVar, 'testValue');
 });

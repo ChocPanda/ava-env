@@ -1,12 +1,40 @@
 # AVA-ENV
 
-[![CircleCI](https://img.shields.io/circleci/project/github/ChocPanda/ava-env/master.svg?style=popout)](https://circleci.com/gh/ChocPanda/ava-env) [![codecov](https://codecov.io/gh/ChocPanda/ava-env/branch/master/graph/badge.svg)](https://codecov.io/gh/ChocPanda/ava-env) [![npm version](https://img.shields.io/npm/v/ava-env.svg?style=popout)](https://www.npmjs.com/package/ava-env) [![dependencies](https://david-dm.org/ChocPanda/ava-env.svg)](https://david-dm.org/ChocPanda/ava-env) [![license](https://img.shields.io/github/license/ChocPanda/ava-env.svg?style=popout)](https://github.com/ChocPanda/ava-env/blob/master/LICENSE) [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/xojs/xo) [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/) [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release) [![Greenkeeper badge](https://badges.greenkeeper.io/ChocPanda/ava-env.svg)](https://greenkeeper.io/)
+<p align="center">
+	<a href="https://circleci.com/gh/ChocPanda/ava-env" alt="CircleCI">
+		<img src="https://img.shields.io/circleci/project/github/ChocPanda/ava-env/master.svg?style=popout" />
+	</a>
+	<a href="https://codecov.io/gh/ChocPanda/ava-env" alt="codecov">
+		<img src="https://codecov.io/gh/ChocPanda/ava-env/branch/master/graph/badge.svg" />
+	</a>
+	<a href="https://www.npmjs.com/package/ava-env" alt="npm version">" />
+		<img src="https://img.shields.io/npm/v/ava-env.svg?style=popout" />
+	</a>
+	<a href="https://david-dm.org/ChocPanda/ava-env" alt="dependencies">
+		<img src="https://david-dm.org/ChocPanda/ava-env.svg" />
+	</a>
+	<a href="https://github.com/ChocPanda/ava-env/blob/master/LICENSE" alt="license">
+		<img src="https://img.shields.io/github/license/ChocPanda/ava-env.svg?style=popout" />
+	</a>
+	<a href="https://github.com/xojs/xo" alt="XO code style">
+		<img src="https://img.shields.io/badge/code_style-XO-5ed9c7.svg" />
+	</a>
+	<a href="http://commitizen.github.io/cz-cli/" alt="Commitizen friendly">
+		<img src="https://img.shields.io/badge/commitizen-friendly-brightgreen.svg" />
+	</a>
+	<a href="https://github.com/semantic-release/semantic-release" alt="semantic-release">
+		<img src="https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg" />
+	</a>
+</p>
 
 Quick and dirty boilerplate to set and reset process.env variables when running tests in [ava](https://github.com/avajs/ava/)
 
 ## Contents
 
 <!-- toc -->
+
+- [Usage](#usage)
+
 <!-- tocstop -->
 
 ## Installation

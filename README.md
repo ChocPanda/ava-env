@@ -7,7 +7,7 @@
 	<a href="https://codecov.io/gh/ChocPanda/ava-env" alt="codecov">
 		<img src="https://codecov.io/gh/ChocPanda/ava-env/branch/master/graph/badge.svg" />
 	</a>
-	<a href="https://www.npmjs.com/package/ava-env" alt="npm version">" />
+	<a href="https://www.npmjs.com/package/ava-env" alt="npm version">
 		<img src="https://img.shields.io/npm/v/ava-env.svg?style=popout" />
 	</a>
 	<a href="https://david-dm.org/ChocPanda/ava-env" alt="dependencies">

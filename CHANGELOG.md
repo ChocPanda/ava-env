@@ -1,3 +1,10 @@
+## [2.0.1](https://github.com/ChocPanda/ava-env/compare/v2.0.0...v2.0.1) (2019-06-07)
+
+
+### Bug Fixes
+
+* build config to copy to dist folder ([a063e3c](https://github.com/ChocPanda/ava-env/commit/a063e3c))
+
 # [2.0.0](https://github.com/ChocPanda/ava-env/compare/v1.1.0...v2.0.0) (2019-05-04)
 
 
